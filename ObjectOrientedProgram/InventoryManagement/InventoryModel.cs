@@ -1,13 +1,14 @@
-﻿using System;
+﻿using ObjectOrientedProgram.InventoryManagement;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ObjectOrientedProgramming.InventoryManagement
 {
-    class InventoryModel
+    public class InventoryModel
     {
-        public string Name { get; set; }
-        public double Weight { get; set; }
-        public double PricePerKg { get; set; }
+        public List<Rice> RiceList { get; set; }
+        public List<Wheat> WheatList { get; set; }
+        public List<Pulses> PulsesList { get; set; }
     }
 }
